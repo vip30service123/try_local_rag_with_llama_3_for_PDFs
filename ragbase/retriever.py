@@ -1,7 +1,7 @@
 from typing import Optional
 
 from langchain.retrievers import ContextualCompressionRetriever
-from langchain.retrievers.document_compresors.chain_filter import LLMChainFilter
+from langchain.retrievers.document_compressors.chain_filter import LLMChainFilter
 from langchain_core.language_models import BaseLanguageModel
 from langchain_core.vectorstores import VectorStore, VectorStoreRetriever
 from langchain_qdrant import Qdrant

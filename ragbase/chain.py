@@ -4,7 +4,7 @@ from typing import List
 
 from langchain.schema.runnable import RunnablePassthrough
 from langchain_core.documents import Document
-from langchain_core.lanuage_models import BaseLanguageModel
+from langchain_core.language_models import BaseLanguageModel
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.runnables import Runnable
 from langchain_core.runnables.history import RunnableWithMessageHistory
